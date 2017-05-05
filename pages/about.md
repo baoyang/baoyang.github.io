@@ -1,18 +1,16 @@
 ---
 layout: page
 title: About
-description: 打码改变世界
-keywords: Zhuang Ma, 马壮
+description: 简单即自由
+keywords: 远方, baoyang
 comments: true
 menu: 关于
 permalink: /about/
 ---
 
-我是马壮，码而生，码而立。
+我是鲍阳，一条正在臭水沟爬行的狗。
 
-仰慕「优雅编码的艺术」。
-
-坚信熟能生巧，努力改变人生。
+仰慕「远方」努力改变人生。
 
 ## 联系
 
