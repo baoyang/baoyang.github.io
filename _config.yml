@@ -1,15 +1,99 @@
-# Created by Jekyll Writer
-title: Your awesome title
-author: Jekyll Writer
-description: >
-  This theme is disigned based on Mailbox Blog, and licensed under MIT. This
-  theme is also default theme for new site created by Jekyll Writer.
-permalink: '/:year/:month/:day/:title/'
-paginate: 6
-paginate_path: '/page/:num/'
-twitter_username: jekyllwriter
-github_username: jekyllwriter
-gems:
-  - jekyll-paginate
+# ---------------- #
+#   Main Configs   #
+# ---------------- #
+baseurl:
+url: https://baoyang.github.io
+date_format: "ordinal"
+title: 远方
+subtitle: "简单就是自由"
+description: "鲍阳的个人博客"
+keywords: 远方, baoyang
+favicon: /favicon.ico
+timezone: Asia/Shanghai
+encoding: "utf-8"
+side_bar_repo_limit: 5
+
+# ---------------- #
+#      Author      #
+# ---------------- #
+author: baoyang
+organization: jd
+organization_url: http://www.jd.com
+github_username: baoyang
+location: beijing, China
+email: 450616235@qq.com
+
+# ---------------- #
+#    Navigation    #
+# ---------------- #
+navs:
+  -
+    href: /
+    label: 首页
+
+  -
+    href: /categories/
+    label: 分类
+
+  -
+    href: /wiki/
+    label: 维基
+
+  -
+    href: /links/
+    label: 链接
+
+  -
+    href: /about/
+    label: 关于
+
+# ---------------- #
+#       RSS        #
+# ---------------- #
+subscribe_rss: /feed.xml
+
+# ---------------- #
+#      Jekyll      #
+# ---------------- #
 markdown: kramdown
-baseurl: ''
+kramdown:
+    input: GFM
+highlighter: rouge
+paginate: 8
+lsi: false
+quiet: false
+excerpt_separator: "\n\n"
+permalink: /:year/:month/:day/:title/
+gems:
+    - jekyll-github-metadata
+    - rouge
+#     - jekyll-html-pipeline
+    - jekyll-paginate
+    - jekyll-sitemap
+    - jekyll-feed
+    - jemoji
+#     - jekyll-mentions
+collections:
+    wiki:
+        output: true
+        permalink: /wiki/:path/
+
+repository: https://github.com/baoyang
+
+# ---------------- #
+#      Comments    #
+# ---------------- #
+# support provider: disqus, netease_gentie
+#comments_provider: netease_gentie
+## !!!重要!!! 请修改下面这些信息为你自己申请的
+## !!!Important!!! Please modify infos below to yours
+#disqus_username: mzlogin
+#netease_gentie_key: 560ed243b708465d82d5a0a5f3b83da1
+## 在使用网易云跟帖时可点击显示 Disqus
+#lazy_load_disqus : true
+
+# ---------------- #
+#    Analytics     #
+# ---------------- #
+#google:
+#    analytics_id: UA-80669434-1

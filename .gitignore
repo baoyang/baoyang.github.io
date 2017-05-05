@@ -1,0 +1,28 @@
+### IntelliJ project files
+.idea
+*.iml
+out
+gen
+target
+
+### Java template
+*.class
+
+### Log file
+*.log
+
+### Package Files
+*.jar
+*.war
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+_site/
+*.swp
+*.~vsd
+\#*\#
+*~
+.DS_Store
+Gemfile.lock
