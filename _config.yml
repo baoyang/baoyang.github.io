@@ -5,8 +5,8 @@ baseurl:
 url: https://baoyang.github.io
 date_format: "ordinal"
 title: 远方
-subtitle: "简单就是自由"
-description: "鲍阳的个人博客"
+subtitle: "懦怯囚禁灵魂，希望感受自由。"
+description: "baoyang blog"
 keywords: 远方, baoyang
 favicon: /favicon.ico
 timezone: Asia/Shanghai
@@ -20,7 +20,7 @@ author: baoyang
 organization: jd
 organization_url: http://www.jd.com
 github_username: baoyang
-location: beijing, China
+location: Beijing, China
 email: 450616235@qq.com
 
 # ---------------- #
