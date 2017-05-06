@@ -61,7 +61,7 @@ keywords: exception , java
      
 ## Java异常性能
 
-![Java异常性能影响](/images/posts/java/exception2.jpg)
+![Java异常性能影响](/images/posts/java/exception2.png)
     
    仅在异常情况下使用异常,在可恢复的异常情况下使用异常.<br />
    异常处理的性能成本非常高，每个Java程序员在开发时都应牢记这句话.<br />
