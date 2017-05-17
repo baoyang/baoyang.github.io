@@ -18,6 +18,7 @@ keywords: exception , java
    当在try块或catch块中遇到return语句时，finally语句块将在方法返回之前被执行。注意以下情况：
     * 在前面的代码中用了System.exit()退出程序，finally块不会被执行
     * 程序所在的线程死亡，finally块不会被执行
+    * 守护线程里有可能不执行finally
     * 关闭CPU，finally块不会被执行
     * finally语句块不应该出现return和throw语句(出现会将覆盖try和catch中的中止)
     * 忽略catch,一旦try运行过程中出现了异常，并且finally也出现异常，程序异常就会忽略，try中异常信息丢失。
@@ -58,6 +59,9 @@ keywords: exception , java
     }
     
     ```
+    
+ 5. [关于Java异常的十大问题](http://www.programcreek.com/2013/10/top-10-questions-about-java-exceptions/)
+    
      
 ## Java异常性能
 
