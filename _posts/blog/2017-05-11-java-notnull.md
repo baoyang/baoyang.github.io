@@ -9,8 +9,12 @@ keywords: NullPointerException , java
 ## 为什么避免java空指针的几点思考:
 
  1. Java应用中抛出的空指针异常是解决空指针的最好方式，也是写出能顺利工作的健壮程序的关键。
+ 
  2. 减少代码中非空判断数量。
+ 
  3. 返回null容易混淆业务意图。
+ 
+ 4. [Null References: The Billion Dollar Mistake](https://www.infoq.com/presentations/Null-References-The-Billion-Dollar-Mistake-Tony-Hoare)
  
 ## 常用技巧及实践
 
